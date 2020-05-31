@@ -313,3 +313,47 @@ heading-secondary--footer {
 .u-margin-top-huge {
   margin-top: 10rem !important;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100vw;
+  }
+
+  .header__logo-box {
+    visibility: hidden;
+  }
+
+  .heading-primary--main {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 1.5rem;
+  }
+
+  .about-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-image {
+    width: 85vw;
+  }
+
+  .section-contact {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    height: 75vh;
+  }
+
+  .contact-logo {
+    width: 70vw;
+    height: 70vw;
+  }
+  .contact--info {
+    display: none;
+  }
+
+  footer > p > span {
+    display: inline-block;
+  }
+}
