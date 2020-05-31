@@ -319,7 +319,7 @@ heading-secondary--footer {
     width: 100vw;
   }
   .header {
-    padding-top: 1rem;
+    margin-top: 2rem;
   }
 
   .header__logo-box {
