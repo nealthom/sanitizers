@@ -184,6 +184,15 @@ heading-secondary--footer {
   color: #fff;
 }
 
+footer > p > a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: yellow;
+  text-transform: uppercase;
+}
+
 /* button */
 
 .btn,
