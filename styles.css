@@ -318,6 +318,9 @@ heading-secondary--footer {
   body {
     width: 100vw;
   }
+  .header {
+    padding-top: 1rem;
+  }
 
   .header__logo-box {
     visibility: hidden;
