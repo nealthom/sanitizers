@@ -355,6 +355,9 @@ heading-secondary--footer {
     width: 70vw;
     height: 70vw;
   }
+  .contact-heading {
+    padding-bottom: 2rem;
+  }
   .contact--info {
     display: none;
   }
